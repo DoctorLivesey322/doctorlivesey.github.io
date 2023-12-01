@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang = "lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autorius" content="Eduard Petkevič, Ef-22/2">
+    <meta name="Description" content="Tai yra mano HTML dokumento praktika">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Laborai</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="print.css">
+    
+
+</head>
+
+    <script src="script.js"></script>
+
+<body>
+    <div class="button-bar">
+        <button data-section="intro" onclick="scrollToSection('intro')">Pradžia</button>
+        <button data-section="apie" onclick="scrollToSection('apie')">Apie</button>
+        <button data-section="aprasymas" onclick="scrollToSection('aprasymas')">Faktai</button>
+        <button data-section="igudziai" onclick="scrollToSection('igudziai')">Įgūdžiai</button>
+        <button data-section="resume" onclick="scrollToSection('resume')">Resume</button>
+        <button data-section="kontaktai" onclick="scrollToSection('kontaktai')">Kontaktai</button>
+    </div>
+    <section id="intro" class="intro-section">
+        <div class="intro-content">
+            <h1>Eduard Petkevič</h1>
+            <p class="subtitle">VILNIUS TECH Elektronikos fakulteto studentas iš Vilniaus.</p>
+        </div>
+    </section>
+    
+    <section id="apie" class="about-section">
+        <div class="about-header">
+            <span>APIE MANE</span>
+            <h2 class="small-header">APIE MANE</h2>
+        </div>
+        <div class="about-content">
+            <p>Trumpa imformacija apie mane ir mano pagrindiniai kontaktai susisiekti.</p>
+        </div>
+        <div class="about-content">
+            <div class="image-container">
+                <img src="stylesheet/profileph.jpg" alt="Nuotrauka apie mane" width="400" height="500">
+            </div>
+            <div class="row">
+                <div class="column">
+                  <ul>
+                    <li></i> <strong>Vardas:</strong> <span>Eduard Petkevič</span></li>
+                    <li></i> <strong>Puslapis:</strong> <span>http://127.0.0.1:5500/kodas.html</span></li>
+                    <li></i> <strong>Numeris:</strong> <span>+370 66 666 666</span></li>
+                    <li></i> <strong>Miestas:</strong> <span>Vilnius, Lietuva</span></li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul>
+                    <li><strong>Amžius:</strong> <span>22</span></li>
+                    <li><strong>Laipsnis:</strong> <span>Studentas</span></li>
+                    <li><strong>Paštas:</strong> <span>eduard.petkevic@stud.vilniustech.lt</span></li>
+                    <li><strong>Padetis:</strong> <span>Laisvas</span></li>
+                  </ul>
+                </div>
+              </div>
+    </section>
+    <section id="aprasymas" class="description-section">
+        <div class="description-header">
+            <span>FAKTAI</span>
+            <h2 class="small-header">FAKTAI</h2>
+        </div>
+        <div class="row1">
+        <div class="two-columns">
+            <div class="column1">
+                <div class="line-effect">
+                    <span class="smile">😊</span><strong>Mokslas:</strong>  Mokiausi Lentvario "Versmės" gimnazijoje. Studijavau 2 metus VILNIUS TECH Mechanikos fakultete. Dabar studijuoju Elektronikos fakultete.
+                </div>
+                <div class="line-effect">
+                    <span class="smile">😊</span><strong>Charakteris:</strong> Esu draugiškas, atskingas, visada užbaigiantis savo darbą. Nebijantis kliučių ir nauju isšukių.
+                </div>
+                
+            </div>
+            <div class="column1">
+                <div class="line-effect">
+                    <span class="smile">😊</span> <strong>Skaičiai:</strong>  Man 22 metai. Jau 4 metus esu universitėte. 2 Metus dirbu braižybos įmonėje.
+                </div>
+                <div class="line-effect">
+                    <span class="smile">😊</span><strong>Idomus faktai:</strong>  visada esu linkmas, mėgstu juodą humorą. Budamas inžineriu mėgstu piešti.
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="igudziai" class="skills-section">
+        <div class="skills-header">
+            <span>ĮGŪDŽIAI</span>
+            <h2 class="small-header">ĮGŪDŽIAI</h2>
+        </div>
+        <div class="skills-line"></div>
+        <div class="skills-text">
+            <strong>HTML</strong>
+            <strong>100%</strong>
+        </div>
+        <div class="skills-line-separator">
+            <div class="orange-part"></div>
+            <div class="grey-part"></div>
+            <div class="skills-text-separator">
+                <strong>CSS</strong>
+                <strong>95%</strong>
+            </div>
+        </div>
+        <div class="skills-line-separator1">
+            <div class="orange-part1"></div>
+            <div class="grey-part1"></div>
+            <div class="skills-text-separator1">
+                <strong>MATLAB</strong>
+                <strong>75%</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+        <div class="resume-header">
+            <span>RESUME</span>
+            <h2 class="small-header">RESUME</h2>
+        </div>
+        <div class="resume-image">
+            <img src="stylesheet/nZdVry7lnUkE24PnXakok9okvL4.jpg" alt="Nuotrauka" width="400" height="500">
+            <div class="orange-line"></div>
+            <div class="description-label">Aprašymas</div>  
+        </div>
+
+        <div class="additional-text">
+            <p>• 2008-2020 metai. Buvau mokiniu Lentvario "Versmes" gimnazijoje. Mokiausi tenais dvylika metu. Dalyvavau tiksliuju mokslu ir istorijos olimpijadose, visada buvau labai didelis tingynis.</p>
+            <p>• 2020-2022 metai. Pradejau savo studento kelia VILNIUS TECH mechanikos fakultete. kur studijavau dvejus metus. Bet nusprendziau iseiti ir pabandyti kazko tai naujo, ir pratesiau savo kelia kitur.</p>
+            <p>• 2022-dabar. Studijoju Elektronikos fakultete. Dirbu imoneje, braizytoju jau daugiau negu dviejus metus. Esu baiges grafikos figma programoje kursus.</p>
+            <p>• 2022-dabar. Studijoju Elektronikos fakultete. Dirbu imoneje, braizytoju jau daugiau negu dviejus metus. Esu baiges grafikos figma programoje kursus.</p>
+            <p>• 2022-dabar. Studijoju Elektronikos fakultete. Dirbu imoneje, braizytoju jau daugiau negu dviejus metus. Esu baiges grafikos figma programoje kursus.</p>
+        </div>
+    </section>
+
+    <section id="kontaktai" class="contact-section">
+        <div class="contact-header">
+            <span>KONTAKTAI</span>
+            <h2 class="small-header">KONTAKTAI</h2>
+        </div>
+        
+       
+
+        <div class="social-links">
+            <strong class="social-label">Socialiniai tinklai</strong>
+            <a href="https://twitter.com"><img src="https://vectorseek.com/wp-content/uploads/2023/08/tiwtter-x-icon-Logo-Vector.svg-.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="https://www.unipile.com/wp-content/uploads/2022/09/logo_instagram.png" alt="Instagram"></a>
+            <a href="https://facebook.com"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn"></a>
+            <div class="email-info">
+                <div class="phone-info"></div>
+        </div>
+        <strong>El. paštas:</strong>
+        <span>eduard.petkevic@stud.vilniustech.lt</span>
+        
+            <strong>Tel. numeris:</strong>
+            <span>+370 66 666 666</span>
+        </div>
+
+        <div class="vertical-line"></div>
+        <div class="contact-info">
+            <strong class="contact-label">Susisiekti su manimi</strong>
+        </div>
+
+        
+            <div class="contact-form">
+                <div class="input-column">
+                    <label for="vardas">Vardas:</label>
+                    <input type="text" id="vardas" name="vardas">
+                </div>
+                <div class="input-column">
+                    <label for="tema">Tema:</label>
+                    <input type="text" id="tema" name="tema">
+                </div>
+                <div class="input-column">
+                    <label for="komentaras">Komentaras:</label>
+                    <textarea id="komentaras" name="komentaras" rows="4"></textarea>
+                </div>
+            </div>
+            <button type="submit">Siųsti</button>
+    </section>
+    <link rel="stylesheet" type="text/css" href="print.css" media="print">
+   
+
+<section class="print-section">
+    <a href="#" class="print-link" onclick="window.print();">Spausdinti</a>
+</section>
+
+
+</body>

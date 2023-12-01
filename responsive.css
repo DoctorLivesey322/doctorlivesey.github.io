@@ -1,0 +1,553 @@
+@media only screen and (max-width: 768px) {
+
+    .about-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .about-content p {
+        max-width: 600px;
+        margin-top: 0;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .about-section {
+        max-height: none;
+    }
+
+    .column {
+        text-align: center;
+        margin-top: 0;
+        margin-left: 30px;
+        transform: none;
+    }
+
+    .column ul {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .column li {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .column li:before {
+        content: "\2713";
+        color: orange;
+        position: absolute;
+        left: -20px;
+    }
+
+
+
+
+
+    .line-effect {
+        margin-bottom: 200px;
+        font-size: 1.2em;
+    }
+    
+    
+    .skills-section .skills-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .skills-section .skills-header span {
+        font-size: 4em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .skills-section .skills-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -55px; 
+    }
+    .skills-section {
+        background-color: white; 
+    }
+
+
+    .skills-line {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px; /* Updated to be three times thicker */
+        background-color: orange;
+        top: 70%; /* Positioned below the headers */
+        border-radius: 3px; /* Added to make line ends rounded */
+        margin-top: 100px;
+    }
+    
+    .skills-text {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: 2270px;
+    }
+    
+    .skills-text strong {
+        font-weight: bold;
+    }
+
+    .skills-line-separator {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; /* Pridėtas atstumas nuo ankstesnės linijos */
+        
+    }
+    
+    .orange-part {
+        position: absolute;
+        height: 100%;
+        width: 90%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part {
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: -20px; /* Pridėtas atstumas nuo linijos */
+    }
+    
+    .skills-text-separator strong {
+        font-weight: bold;
+    }
+    
+
+    .skills-line-separator1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; 
+    }
+    
+    .orange-part1 {
+        position: absolute;
+        height: 100%;
+        width: 75%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part1 {
+        position: absolute;
+        height: 100%;
+        width: 25%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator1 {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: -20px; 
+    }
+
+
+
+
+
+
+
+
+
+
+    .line-effect {
+        margin-bottom: 200px;
+        font-size: 1.2em;
+    }
+    
+    
+    .skills-section .skills-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .skills-section .skills-header span {
+        font-size: 4em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .skills-section .skills-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -55px; 
+    }
+    .skills-section {
+        background-color: white; 
+    }
+
+
+    .skills-line {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+        height: 6px; /* Updated to be three times thicker */
+        background-color: orange;
+        top: 70%; /* Positioned below the headers */
+        border-radius: 3px; /* Added to make line ends rounded */
+        margin-top: 100px;
+    }
+    
+    .skills-text {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 700px;
+        color: black;
+        margin-top: 2350px;
+    }
+    
+    .skills-text strong {
+        font-weight: bold;
+    }
+
+    .skills-line-separator {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; /* Pridėtas atstumas nuo ankstesnės linijos */
+        
+    }
+    
+    .orange-part {
+        position: absolute;
+        height: 100%;
+        width: 90%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part {
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 700px;
+        color: black;
+        margin-top: -20px; /* Pridėtas atstumas nuo linijos */
+    }
+    
+    .skills-text-separator strong {
+        font-weight: bold;
+    }
+    
+
+    .skills-line-separator1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; 
+    }
+    
+    .orange-part1 {
+        position: absolute;
+        height: 100%;
+        width: 75%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part1 {
+        position: absolute;
+        height: 100%;
+        width: 25%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator1 {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 700px;
+        color: black;
+        margin-top: -20px; 
+    }
+
+
+
+
+
+
+    .resume-section {
+        background-color: white; 
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .resume-section .resume-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .resume-section .resume-header span {
+        font-size: 4em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .resume-section .resume-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -50px; /* Pakeistas atstumas, kad išlaikyti antrastę virš nuotraukos */
+    }
+    
+    .resume-section .resume-image {
+        margin-top: 20px;
+        position: relative; 
+        margin-right: 20px;
+    }
+    
+    .resume-section .resume-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+        display: block; /* Užtikrina, kad nuotrauka būtų centroje */
+    }
+    
+    .resume-section .orange-line {
+        display: none;
+    }
+    
+    /* .resume-section .description-label {
+        font-size: 2em;
+        color: orange; 
+        font-weight: bold;
+        margin-top: 20px;
+    } */
+    
+     .additional-text {
+        text-align: left;
+        margin-top: 20px;
+    } 
+    
+    .additional-text p {
+        margin: 15px 0;
+        text-indent: 0;
+        font-size: 1.2em;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    
+    
+    
+
+
+    .contact-section {
+        background-color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    
+    .contact-section .contact-header {
+        position: relative;
+    }
+    
+    .contact-section .contact-header span {
+        font-size: 2.5em;
+        color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .contact-section .contact-header h2 {
+        font-size: 2em;
+        color: black;
+        margin-top: -20px;
+    }
+    
+    .contact-section .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+    .contact-section .social-links strong {
+        font-size: 1.2em;
+        color: orange;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact-section .social-links a {
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    .email-info,
+    .phone-info {
+        margin-top: 20px;
+    }
+    
+    .email-info strong,
+    .phone-info strong {
+        display: block;
+        color: orange;
+    }
+    
+    .email-info span,
+    .phone-info span {
+        display: block;
+        color: black;
+    }
+    
+    .vertical-line {
+        display: none;
+    }
+    
+    .contact-info {
+        position: static;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .contact-label {
+        font-size: 1.2em;
+        color: orange;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .input-column {
+        margin-bottom: 10px;
+        text-align: center; 
+        margin-right: -550px;
+    }
+    
+    .input-column label {
+        margin-bottom: 5px;
+    }
+    
+    .input-column input,
+    .input-column textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        
+    }
+    
+    .contact-section button {
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 20px 0;
+    }
+    
+    .contact-section button:hover {
+        background-color: darkorange;
+    }
+    /* Padidinta aukštis 100px */
+.contact-section {
+    height: calc(500px + 100px);
+}
+
+    
+   
+    @media only screen and (max-width: 768px) {
+        .contact-section .social-links,
+        .contact-section button {
+            margin-left: 0; /* Atstumas nuo krašto 0 */
+        }
+    
+        .input-column {
+            text-align: left; /* Centruojame inputus */
+        }
+    }
+
+
+}
+
+    
+    
+
+
+

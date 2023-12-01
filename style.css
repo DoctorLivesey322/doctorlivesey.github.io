@@ -1,0 +1,620 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+section {
+    border: none; 
+}
+
+.subtitle {
+    font-size: 1.2em;
+}
+
+.intro-section {
+    background: url('stylesheet/backfrontname.jpg') center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.intro-content {
+    max-width: 600px;
+}
+
+.intro-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    margin-top: -100px; 
+    font-style: italic; 
+}
+
+.intro-content p {
+    margin-top: 65px; 
+    font-style: italic;
+}
+.button-bar {
+    /* Pridedame rgba spalvą, kur a yra alfa (permatomumo) lygis */
+    background-color: rgba(51, 51, 51, 0.1);
+    
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.button-bar button {
+    background-color: transparent;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.button-bar button:hover {
+    background-color: #ff6600;
+}
+.active {
+    background-color: #ff6600 !important;
+}
+
+section {
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* border-bottom: 1px solid #ccc; */
+    margin-bottom: 30px;
+}
+
+
+
+.about-header {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black; 
+}
+
+.about-header span {
+    font-size: 1.5em; /* Didesnis tekstas */
+    color: rgba(0, 0, 0, 0.2); 
+}
+
+.about-header h2 {
+    font-size: 1em; 
+    color: black; 
+    margin-top: -55px;
+}
+
+.about-content {
+    text-align: center; /* Centruojame horizontaliai */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centruojame vertikaliai */
+    justify-content: center; /* Centruojame vertikaliai */
+    height: 100vh; /* Užtikrina, kad sekcija užims visą ekraną */
+    
+}
+
+
+.about-content p {
+    max-width: 600px; 
+    margin-top: -670px; 
+    }
+
+    .image-container {
+        position: relative;
+        margin-bottom: 20px; /* Atstumas nuo nuotraukos iki teksto */
+        margin-top: -1500px;
+        margin-right: 990px;
+    }
+    
+    .image-container img {
+       
+        border-radius: 10px; /* Prideda šerifui apvalius kampus */
+      
+    }
+    .about-section {
+        background-color: white; 
+        max-height: 800px;
+    }
+    
+    .about-header {
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+    
+    .about-header span {
+        font-size: 1.5em;
+        color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .about-header h2 {
+        font-size: 1em;
+        color: black;
+        margin-top: -55px;
+    }
+    
+    .about-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .about-content p {
+        max-width: 600px;
+        margin-top: -670px;
+    }
+    
+    .image-container {
+        margin-bottom: 40px;
+    }
+    
+    .image-container img {
+        border-radius: 10px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .column {
+        text-align: left;
+        margin-top: -450px; 
+        margin-left: 150px;
+        transform: translateX(65px);
+    
+    }
+    
+    .column ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .column li {
+        margin-bottom: 50px;
+        position: relative;
+    }
+    
+    .column li:before {
+        content: "\2713";
+        color: orange;
+        position: fixed;
+        left: -20px;
+    }
+    
+    .description-header {
+        font-size: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black; 
+    }
+    
+
+    .description-section {
+        background-color: white; 
+        padding: 20px; /* Pridedame tarpą nuo kraštų */
+    }
+    
+    .description-header span {
+        font-size: 1.5em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .description-header h2 {
+        font-size: 1em; 
+        color: black; 
+        margin-top: -55px;
+    }
+
+    
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px; /* Atstumas tarp eilučių ir antraštės */
+    }
+    
+    .two-columns {
+        display: flex;
+    }
+    
+    .column1 {
+        width: 48%;
+    }
+    
+    .line-effect {
+        margin-bottom: 200px;
+        font-size: 1.2em;
+    }
+    
+    
+    .skills-section .skills-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .skills-section .skills-header span {
+        font-size: 4em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .skills-section .skills-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -55px; 
+    }
+    .skills-section {
+        background-color: white; 
+    }
+
+
+    .skills-line {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px; /* Updated to be three times thicker */
+        background-color: orange;
+        top: 70%; /* Positioned below the headers */
+        border-radius: 3px; /* Added to make line ends rounded */
+        margin-top: 100px;
+    }
+    
+    .skills-text {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: 2270px;
+    }
+    
+    .skills-text strong {
+        font-weight: bold;
+    }
+
+    .skills-line-separator {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; /* Pridėtas atstumas nuo ankstesnės linijos */
+        
+    }
+    
+    .orange-part {
+        position: absolute;
+        height: 100%;
+        width: 90%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part {
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: -20px; /* Pridėtas atstumas nuo linijos */
+    }
+    
+    .skills-text-separator strong {
+        font-weight: bold;
+    }
+    
+
+    .skills-line-separator1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 6px;
+        top: 75%; /* Pakeista pozicionavimo aukštis */
+        margin-top: 30px; 
+    }
+    
+    .orange-part1 {
+        position: absolute;
+        height: 100%;
+        width: 75%;
+        background-color: orange;
+        border-radius: 3px;
+    }
+    
+    .grey-part1 {
+        position: absolute;
+        height: 100%;
+        width: 25%;
+        background-color: grey;
+        right: 0;
+        border-radius: 3px;
+    }
+    
+    .skills-text-separator1 {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+        width: 800px;
+        color: black;
+        margin-top: -20px; 
+    }
+
+    .resume-section {
+        background-color: white; 
+    }
+
+    .resume-section .resume-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .resume-section .resume-header span {
+        font-size: 4em; 
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .resume-section .resume-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -55px; 
+    }
+    
+    .resume-section .resume-image {
+        text-align: left;
+        margin-top: 20px;
+        position: relative; 
+        margin-left: 35px;
+    }
+    
+    .resume-section .resume-image img {
+        width: 400px;
+        height: 500px;
+        
+    }
+    
+    .resume-section .orange-line {
+        position: absolute;
+        top: 0;
+        right: 950px; 
+        height: 100%; 
+        width: 15px; 
+        border-radius: 3px;
+        background-color: orange;
+    }
+
+    .resume-section .description-label {
+        position: absolute;
+        top: 3%;
+        right: 750px; 
+        transform: translateY(-50%);
+        font-size: 2em;
+        color: orange; 
+        font-weight: bold; 
+    }
+
+
+
+    .orange-line {
+        position: absolute;
+        width: 25px;
+        height: 100%;
+        background-color: orange;
+        top: 0;
+        right: 0;
+    }
+    
+    .additional-text {
+        text-align: absolute;
+        margin-top: -430px;
+        
+    }
+    
+    .additional-text p {
+        margin: 35px;
+        text-indent: 50px;
+        margin-left: 500px;
+        font-size: 1.2em;
+        
+    }
+    
+    .contact-section .contact-header {
+        text-align: center;
+        position: relative;
+    }
+    
+    .contact-section .contact-header span {
+        font-size: 4em; /* Didesnis tekstas */
+        color: rgba(0, 0, 0, 0.2); 
+    }
+    
+    .contact-section .contact-header h2 {
+        font-size: 3em; 
+        color: black; 
+        margin-top: -55px; 
+    }
+    
+    .contact-section {
+        background-color: white; 
+    }
+    
+
+    .contact-section .social-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; 
+        margin-left: -950px;
+    }
+    
+    .contact-section .social-links img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; /* Padaryta apvalių formų */
+    }
+   
+
+    .contact-section .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; /* Pridėtas, kad ikonėlės eitų į naują eilutę */
+    }
+    
+    .contact-section .social-links strong {
+        font-size: 1.5em;
+        color: orange;
+        margin-bottom: 10px;
+        width: 100%; /* Pridėtas, kad užimtų visą plotį */
+        text-align: center; 
+    }
+    
+    .contact-section .social-links a {
+        margin: 10px; 
+        display: inline-block; /* Pridėtas, kad būtų viena šalia kitos */
+    }
+
+    .email-info {
+        color: orange; 
+        margin-top: 150px; 
+    }
+    
+    .email-info strong {
+        font-weight: bold;
+        display: block; /* Nustatome kaip blokinį elementą */
+    }
+    
+    .email-info span {
+        display: block; 
+    }
+   
+    .email-info strong {
+        color: orange; 
+    }
+    
+    .email-info span {
+        color: black; 
+    }
+    
+    .phone-info strong {
+        color: orange; 
+    }
+    
+    .phone-info span {
+        color: black; 
+    }
+    .vertical-line {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15px;
+        height: 300px;
+        background-color: orange;
+        border-radius: 10px; /* Apvalūs kampai */
+        margin-top: 3600px;
+        margin-right: 1000px;
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 3600px; 
+       margin-left: 500px;
+        text-align: right;
+    }
+    
+    .contact-label {
+        font-size: 1.5em; 
+        color: orange; 
+    }
+
+    
+    
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: -200px;
+        margin-right: 530px;
+    }
+    
+    .input-column {
+        margin-bottom: 10px;
+    }
+    
+    .input-column label {
+        margin-bottom: 5px;
+    }
+    
+    .input-column input,
+    .input-column textarea {
+        width: 300px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .contact-section {
+        height: 500px;
+    }
+
+    .contact-section button {
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 600px;
+    }
+    
+    .contact-section button:hover {
+        background-color: darkorange;
+    }
+    
+
+
+    
